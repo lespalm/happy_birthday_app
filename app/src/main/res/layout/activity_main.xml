@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+                xml:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidimage"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="10"
+        android:text="Happy Birthday, Ronnie!"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="36sp"
+        />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="cursive"
+        android:shadowColor="#ffffff"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="10"
+        android:text="From, Les!"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"/>
+
+</RelativeLayout>
